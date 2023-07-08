@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.carlostomas.controller.ProgramadorController">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="530.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FondoProgramadorVista.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="7.0" layoutY="77.0" text=" Nombre : Carlos Estuardo Tomas Mejia" />
+      <Label layoutX="7.0" layoutY="105.0" text="Carnet : 2021215" />
+      <Label layoutX="7.0" layoutY="134.0" text="codigoTecnico : IN5AV" />
+      <ImageView fitHeight="44.0" fitWidth="58.0" layoutX="486.0" layoutY="7.0" onMouseClicked="#menuPrincipal" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/regresar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="253.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/fotomia.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
